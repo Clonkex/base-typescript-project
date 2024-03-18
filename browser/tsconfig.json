@@ -3,7 +3,10 @@
     "compilerOptions": {
         "outDir": "dist",
         "sourceMap": true,
-        "verbatimModuleSyntax": true
+        "verbatimModuleSyntax": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"target": "ESNext"
     },
     "include": [
         "**/*.ts"
