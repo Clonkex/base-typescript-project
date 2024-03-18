@@ -1,8 +1,6 @@
-export const esbuildConfig = {
+export const config = {
     entryPoints: [
         'src/login.ts',
-        'src/designList.ts',
-        'src/designEdit.ts'
     ],
     bundle: true,
     minify: true,
