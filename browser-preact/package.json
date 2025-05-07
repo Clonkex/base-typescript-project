@@ -1,25 +1,24 @@
 {
     "type": "module",
     "scripts": {
-		"build": "eslint src --ext .ts && node esbuild/build.js",
-		"start": "npm run build && node esbuild/serve.js"
+        "build": "eslint src --ext .ts && node esbuild/build.js",
+        "start": "npm run build && node esbuild/serve.js"
     },
     "dependencies": {
-		"@js-temporal/polyfill": "~0.4.4",
-		"class-transformer": "~0.5.1",
-		"htm": "~3.1.1",
-		"idb-keyval": "~6.2.1",
-		"js-cookie": "~3.0.5",
-		"preact": "~10.19.4",
-		"reflect-metadata": "~0.2.1"
+        "@js-temporal/polyfill": "~0.4.4",
+        "class-transformer": "~0.5.1",
+        "htm": "~3.1.1",
+        "idb-keyval": "~6.2.1",
+        "js-cookie": "~3.0.5",
+        "preact": "~10.19.4",
+        "reflect-metadata": "~0.2.1"
     },
     "devDependencies": {
-        "@tsconfig/next": "~2.0.1",
-		"@types/js-cookie": "~3.0.6",
-		"@typescript-eslint/eslint-plugin": "~7.0.2",
-		"@typescript-eslint/parser": "~7.0.2",
-		"esbuild": "~0.19.12",
-		"eslint": "~8.56.0",
-		"typescript": "~5.3.3"
+        "@tsconfig/next": "~2.0.3",
+        "@types/js-cookie": "~3.0.6",
+        "esbuild": "~0.19.12",
+        "eslint": "~9.26.0",
+        "typescript": "~5.8.3",
+        "typescript-eslint": "~8.32.0"
     }
 }
